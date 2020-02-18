@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$loader = new \App\Loader();
+$loader = new \App\Loader('https://arhivach.ng/thread/533868/');
 
-var_dump($loader);
+$loader->load();
 
